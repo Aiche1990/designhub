@@ -14,7 +14,7 @@
     "react-transition-group": "^2.5.2"
   },
 
-  "homepage": "https://github.com/Aiche1990/designhubv2/tree/gh-pages",
+  "homepage": "https://aiche1990.github.io/designhub",
 
   "scripts": {
     "build-css": "node-sass-chokidar --include-path ./src --include-path ./node_modules src/ -o /src",
