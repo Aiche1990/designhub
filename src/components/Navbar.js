@@ -10,11 +10,11 @@ class Navbar extends Component {
           <nav>
 
             <div className="mobile-nav" id="mNav">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/services">Services</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/contact">Contact Us</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/'}>Home</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/about'}>About</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/services'}>Services</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/project'}>Projects</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/contact'}>Contact Us</NavLink>
             </div>
 
             <div className="container">
@@ -26,11 +26,11 @@ class Navbar extends Component {
               </div>
 
               <div className="links">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/services">Services</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/contact">Contact Us</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/'}>Home</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/about'}>About</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/services'}>Services</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/project'}>Projects</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/contact'}>Contact Us</NavLink>
               </div>
 
               <div className="mobile-nav-toggle" id="navTog" onClick={toggle}>
