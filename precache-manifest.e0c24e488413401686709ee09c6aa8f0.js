@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/email.c6697aa8.svg"
   },
   {
-    "revision": "db7956e99370e5b286ee",
-    "url": "/designhub/static/css/main.b842b0ca.chunk.css"
+    "revision": "f153bd7d0b876c00c674",
+    "url": "/designhub/static/css/main.cd08522c.chunk.css"
   },
   {
     "revision": "803cdb538373dc5a9d72",
@@ -16,20 +16,20 @@ self.__precacheManifest = [
     "url": "/designhub/static/js/runtime~main.04e570f0.js"
   },
   {
-    "revision": "3cd8baa38da416086e4348399ee77a7e",
-    "url": "/designhub/static/media/gps.3cd8baa3.svg"
-  },
-  {
     "revision": "9e1dff0235d7a223ea852b84794bbdc9",
     "url": "/designhub/static/media/logo.9e1dff02.svg"
+  },
+  {
+    "revision": "3cd8baa38da416086e4348399ee77a7e",
+    "url": "/designhub/static/media/gps.3cd8baa3.svg"
   },
   {
     "revision": "fa42f64fa4175370a4711c6930db3e1e",
     "url": "/designhub/static/media/kicker.fa42f64f.svg"
   },
   {
-    "revision": "db7956e99370e5b286ee",
-    "url": "/designhub/static/js/main.db7956e9.chunk.js"
+    "revision": "f153bd7d0b876c00c674",
+    "url": "/designhub/static/js/main.f153bd7d.chunk.js"
   },
   {
     "revision": "2a8ca5319aec32321fb0e15ce795db8a",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/img-overlay.ebef04d1.jpg"
   },
   {
-    "revision": "21e68635b70645576ad986bb40dc2649",
+    "revision": "ba638e44dd06f10e7282e5517dbf6e26",
     "url": "/designhub/index.html"
   }
 ];
