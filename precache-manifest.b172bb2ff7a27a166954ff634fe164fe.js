@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/phone.2a8ca531.svg"
   },
   {
-    "revision": "5de24c25fb7ac92399ed",
+    "revision": "3660db6c51083a8238bc",
     "url": "/designhub/static/css/main.8e768108.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/gps.3cd8baa3.svg"
   },
   {
-    "revision": "5de24c25fb7ac92399ed",
-    "url": "/designhub/static/js/main.5de24c25.chunk.js"
+    "revision": "3660db6c51083a8238bc",
+    "url": "/designhub/static/js/main.3660db6c.chunk.js"
   },
   {
     "revision": "c6697aa829e0733aead0ffcf52917b99",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/img-overlay.ebef04d1.jpg"
   },
   {
-    "revision": "c91ad413a77faf5b4b1cdd38a420f670",
+    "revision": "1091b2ac94281f7c141fb7c857d21f47",
     "url": "/designhub/index.html"
   }
 ];
