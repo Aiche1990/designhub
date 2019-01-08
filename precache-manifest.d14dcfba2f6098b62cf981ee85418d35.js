@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "3cd8baa38da416086e4348399ee77a7e",
-    "url": "/designhub/static/media/gps.3cd8baa3.svg"
+    "revision": "c6697aa829e0733aead0ffcf52917b99",
+    "url": "/designhub/static/media/email.c6697aa8.svg"
   },
   {
     "revision": "e7c573884eb1fc154f3e",
@@ -20,12 +20,12 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/logo.9e1dff02.svg"
   },
   {
-    "revision": "fa42f64fa4175370a4711c6930db3e1e",
-    "url": "/designhub/static/media/kicker.fa42f64f.svg"
+    "revision": "3cd8baa38da416086e4348399ee77a7e",
+    "url": "/designhub/static/media/gps.3cd8baa3.svg"
   },
   {
-    "revision": "c6697aa829e0733aead0ffcf52917b99",
-    "url": "/designhub/static/media/email.c6697aa8.svg"
+    "revision": "fa42f64fa4175370a4711c6930db3e1e",
+    "url": "/designhub/static/media/kicker.fa42f64f.svg"
   },
   {
     "revision": "e7c573884eb1fc154f3e",
@@ -40,6 +40,10 @@ self.__precacheManifest = [
     "url": "/designhub/static/media/bg2.ee8c0fa3.jpg"
   },
   {
+    "revision": "1d78384afa8674d22f59bb2d17ae8d7c",
+    "url": "/designhub/static/media/services-pic.1d78384a.jpg"
+  },
+  {
     "revision": "8eef4255dcbd74db677ef6da22f89ddd",
     "url": "/designhub/static/media/img-proj2.8eef4255.jpg"
   },
@@ -50,10 +54,6 @@ self.__precacheManifest = [
   {
     "revision": "ebef04d1be4e4d38afbdc1cbe891f7a1",
     "url": "/designhub/static/media/img-overlay.ebef04d1.jpg"
-  },
-  {
-    "revision": "1d78384afa8674d22f59bb2d17ae8d7c",
-    "url": "/designhub/static/media/services-pic.1d78384a.jpg"
   },
   {
     "revision": "6ceb39d2a9aa454e292f84a3db73631e",
