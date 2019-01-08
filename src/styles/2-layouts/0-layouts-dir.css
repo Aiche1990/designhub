@@ -207,7 +207,7 @@ button:hover {
 .about {
   transition: all .3s ease;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background: #252525;
   padding-top: 90px;
   padding-bottom: 90px;
@@ -402,9 +402,9 @@ button:hover {
           max-height: 400px; } }
     .Services .service-preview .service-desc {
       width: 100%;
-      height: 200px;
+      height: 150px;
       background: #252525;
-      padding-top: 27px;
+      padding-top: 10px;
       padding-left: 30px;
       position: relative; }
       @media (max-width: 1366px) {
@@ -466,12 +466,13 @@ button:hover {
     .Projects {
       height: 1079px; } }
   .Projects .project-header {
-    padding-top: 200px; }
+    padding-top: 80px; }
     .Projects .project-header h3 {
       font-size: 45px;
       color: #1ac77d;
       text-transform: uppercase;
-      float: left; }
+      float: left;
+      margin-top: 40px; }
       @media (max-width: 600px) {
         .Projects .project-header h3 {
           float: none;
@@ -485,7 +486,7 @@ button:hover {
       float: right;
       display: flex;
       text-align: center;
-      margin-top: 15px; }
+      margin-top: 55px; }
       @media (max-width: 600px) {
         .Projects .project-header .page-select {
           float: none;

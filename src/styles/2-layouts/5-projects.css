@@ -12,12 +12,13 @@
     .Projects {
       height: 1079px; } }
   .Projects .project-header {
-    padding-top: 200px; }
+    padding-top: 80px; }
     .Projects .project-header h3 {
       font-size: 45px;
       color: #1ac77d;
       text-transform: uppercase;
-      float: left; }
+      float: left;
+      margin-top: 40px; }
       @media (max-width: 600px) {
         .Projects .project-header h3 {
           float: none;
@@ -31,7 +32,7 @@
       float: right;
       display: flex;
       text-align: center;
-      margin-top: 15px; }
+      margin-top: 55px; }
       @media (max-width: 600px) {
         .Projects .project-header .page-select {
           float: none;
