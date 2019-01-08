@@ -32,7 +32,7 @@ class App extends Component {
                 classNames="fade"
               >
                 <Switch location={location}>
-                  <Route path={process.env.PUBLIC_URL + '/'} component={ Home } />
+                  <Route path={process.env.PUBLIC_URL + '/'} component={ Home } exact/>
                   <Route path={process.env.PUBLIC_URL + '/about'} component={ About } />
                   <Route path={process.env.PUBLIC_URL + '/services'} component={ Services } />
                   <Route path={process.env.PUBLIC_URL + '/projects'} component={ Projects } />
