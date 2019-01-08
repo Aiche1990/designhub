@@ -10,8 +10,8 @@ class Navbar extends Component {
           <nav>
 
             <div className="mobile-nav" id="mNav">
-                <NavLink to={process.env.PUBLIC_URL + 'designhub' + '/'}>Home</NavLink>
-                <NavLink to={process.env.PUBLIC_URL + 'designhub' + '/about'}>About</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/'}>Home</NavLink>
+                <NavLink to={process.env.PUBLIC_URL + '/about'}>About</NavLink>
                 <NavLink to={process.env.PUBLIC_URL + '/services'}>Services</NavLink>
                 <NavLink to={process.env.PUBLIC_URL + '/projects'}>Projects</NavLink>
                 <NavLink to={process.env.PUBLIC_URL + '/contact'}>Contact Us</NavLink>
