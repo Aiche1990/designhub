@@ -32,8 +32,8 @@ class App extends Component {
                 classNames="fade"
               >
                 <Switch location={location}>
-                  <Route path="/" component={ Home } exact/>
-                  <Route path="/about" component={ About }/>
+                  <Route path="/" component={ Home } />
+                  <Route path="/about" component={ About } />
                   <Route path="/services" component={ Services } />
                   <Route path="/projects" component={ Projects } />
                   <Route path="/contact" component={ Contact } />
