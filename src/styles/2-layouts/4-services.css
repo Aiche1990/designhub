@@ -1,0 +1,137 @@
+/* Services Styles */
+.Services {
+  width: 100%;
+  height: 100vh;
+  background: white;
+  position: absolute;
+  left: 0;
+  right: 0; }
+  @media (max-width: 491px) {
+    .Services .container {
+      width: 100%; } }
+  .Services .service-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%; }
+    @media (max-width: 991px) {
+      .Services .service-wrapper {
+        display: block; } }
+    .Services .service-wrapper .service-list {
+      padding-top: 250px;
+      position: relative; }
+      .Services .service-wrapper .service-list h2 {
+        font-size: 50px;
+        color: #1AC77D;
+        margin-bottom: 90px; }
+        @media (max-width: 491px) {
+          .Services .service-wrapper .service-list h2 {
+            text-align: center; } }
+      .Services .service-wrapper .service-list h3 {
+        font-size: 50px;
+        color: #252525;
+        margin-bottom: 45px;
+        display: flex;
+        cursor: pointer; }
+        @media (max-width: 1366px) {
+          .Services .service-wrapper .service-list h3 {
+            font-size: 35px; } }
+        @media (max-width: 491px) {
+          .Services .service-wrapper .service-list h3 {
+            display: block;
+            text-align: center;
+            font-size: 30px; } }
+        .Services .service-wrapper .service-list h3.active {
+          color: #1AC77D; }
+          .Services .service-wrapper .service-list h3.active span:before {
+            content: "";
+            position: absolute;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 25px 0 25px 25px;
+            border-color: transparent transparent transparent #252525;
+            left: -40px; }
+        .Services .service-wrapper .service-list h3 span:before {
+          border-color: transparent transparent transparent #252525; }
+        .Services .service-wrapper .service-list h3.active:hover {
+          color: #252525; }
+      .Services .service-wrapper .service-list h3:hover {
+        color: #1ac77D; }
+  .Services .service-preview {
+    height: 900px;
+    width: 100%;
+    transform: translateY(100px); }
+    @media (max-width: 1366px) {
+      .Services .service-preview {
+        transform: translateY(200px); } }
+    @media (max-width: 991px) {
+      .Services .service-preview {
+        transform: translateY(100px); } }
+    @media (max-width: 491px) {
+      .Services .service-preview {
+        height: auto; } }
+    .Services .service-preview .service-bg {
+      width: 100%;
+      height: 700px;
+      background: url("../../img/services-pic.jpg");
+        background-size: cover;
+        background-repeat: no-repeat; }
+      @media (max-width: 1366px) {
+        .Services .service-preview .service-bg {
+          height: 400px; } }
+      @media (max-width: 991px) {
+        .Services .service-preview .service-bg {
+          height: 600px; } }
+      @media (max-width: 991px) {
+        .Services .service-preview .service-bg {
+          max-height: 400px; } }
+    .Services .service-preview .service-desc {
+      width: 100%;
+      height: 200px;
+      background: #252525;
+      padding-top: 27px;
+      padding-left: 30px;
+      position: relative; }
+      @media (max-width: 1366px) {
+        .Services .service-preview .service-desc {
+          height: auto;
+          padding-left: 0; } }
+      .Services .service-preview .service-desc .service-title {
+        color: #1AC77D;
+        font-size: 50px;
+        font-weight: 700;
+        padding-bottom: 10px; }
+        @media (max-width: 1366px) {
+          .Services .service-preview .service-desc .service-title {
+            text-align: center; } }
+      .Services .service-preview .service-desc p {
+        font-size: 14px;
+        color: white;
+        max-width: 486px; }
+        @media (max-width: 1366px) {
+          .Services .service-preview .service-desc p {
+            text-align: center;
+            font-size: 12px;
+            padding-bottom: 20px;
+            width: 90%;
+            margin: 0 auto; } }
+      .Services .service-preview .service-desc a {
+        padding: 1.1em 1.5em;
+        text-decoration: none;
+        background: #1AC77D;
+        font-size: 20px;
+        color: #252525;
+        font-weight: 700;
+        text-transform: uppercase;
+        position: absolute;
+        right: 0;
+        bottom: 0; }
+        @media (max-width: 1366px) {
+          .Services .service-preview .service-desc a {
+            font-size: 15px;
+            position: static;
+            margin: 0 auto;
+            display: block;
+            max-width: 200px;
+            text-align: center; } }
+      .Services .service-preview .service-desc a:hover {
+        color: white; }

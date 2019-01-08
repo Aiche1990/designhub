@@ -1,0 +1,124 @@
+/* Navigation Styes */
+
+nav
+    height: 100px
+    width: 100%
+    background: white
+    position: fixed
+    z-index: 1
+    .container
+        @media (max-width: 991px)
+            width: 100%
+        @media (max-width: 800px)
+            .mobile-nav-toggle
+                width: 50px
+                height: 50px
+                float: right
+                margin-top: 25px
+                margin-right: 15px
+                border-radius: 5px
+                display: flex
+                align-items: center
+                cursor: pointer
+                position: relative
+                z-index: 3
+                
+                span,
+                span:before,
+                span:after
+                    content: ""
+                    display: block
+                    width: 100%
+                    height: 2px
+                    background: #333
+                    position: relative
+                    transition: all 0.3s ease-in-out
+
+                span:before
+                    top: 15px
+
+                span:after
+                    top: -17px
+
+                &.opened span
+                    background: transparent
+                
+                &.opened span:before,
+                &.opened span:after
+                    transform-origin: center
+                    transform: rotate(45deg)
+                    top: 0
+                &.opened span:after
+                    transform: rotate(-45deg)
+
+    .logo
+        float: left
+        display: flex
+        align-items: center
+        margin-top: 13px
+        position: relative
+        z-index: 1
+        .logo-icon
+            width: 75px
+            height: 75px
+            background: url('../../img/logo.svg')
+            @media (max-width: 991px)
+                margin-left: 30px
+            @media (max-width: 767px)
+                margin: 0 auto
+        .logo-title
+            text-align: center
+            text-transform: uppercase
+            font-weight: 700
+            font-size: 20px
+            margin-left: 30px
+            color: #252525
+            @media (max-width: 1175px)
+                font-size: 18px
+                margin-left: 0px
+    
+    .links
+        float: right
+        margin-top: 40px
+        @media (max-width: 800px)
+            display: none
+        a
+            font-size: 18px
+            color: #252525
+            font-weight: 600
+            text-decoration: none
+            margin-right: 40px
+            text-transform: uppercase
+            @media (max-width: 1175px)
+                font-size: 14px
+        a:hover
+            color: #1AC77D
+            
+    .mobile-nav
+        transform: translateY(-100%)
+        transition: all .2s ease-in-out
+        display: flex
+        flex-flow: column
+        text-align: center
+        background: white
+        position: absolute
+        width: 100%
+        padding: 2px
+        z-index: 2
+        a
+            color: #252525
+            font-size: 20px
+            text-decoration: none
+            font-weight: 500
+            padding: 10px
+        a:hover
+            color: #1ac77d
+
+    @media (max-width: 800px)
+        .is-open
+            transform: translateY(0%)
+        
+                
+                
+                
+                

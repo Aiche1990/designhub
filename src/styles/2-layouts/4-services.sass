@@ -1,0 +1,127 @@
+/* Services Styles */
+
+.Services
+    width: 100%
+    height: 100vh
+    background: white
+    position: absolute
+    left: 0
+    right: 0
+    @media (max-width: 491px)
+        .container
+            width: 100%
+    .service-wrapper
+        display: grid
+        grid-template-columns: 50% 50%
+        //align-items: center
+        @media (max-width: 991px)
+            display: block
+        .service-list
+            padding-top: 250px
+            position: relative
+            h2
+                font-size: 50px
+                color: #1AC77D
+                margin-bottom: 90px
+                @media (max-width: 491px)
+                    text-align: center
+            h3
+                font-size: 50px
+                color: #252525
+                margin-bottom: 45px
+                display: flex
+                cursor: pointer
+                @media (max-width: 1366px)
+                    font-size: 35px
+                @media (max-width: 491px)
+                    display: block
+                    text-align: center
+                    font-size: 30px
+                &.active
+                    color: #1AC77D
+                    span:before
+                        content: ""
+                        position: absolute
+                        width: 0
+                        height: 0
+                        border-style: solid
+                        border-width: 25px 0 25px 25px
+                        border-color: transparent transparent transparent #252525
+                        left: -40px
+                span:before
+                    border-color: transparent transparent transparent #252525
+                &.active:hover
+                    color: #252525
+            h3:hover
+                color: #1ac77D
+
+    .service-preview
+        height: 900px
+        width: 100%
+        //background: green
+        transform: translateY(100px)
+        @media (max-width: 1366px)
+            transform: translateY(200px)
+        @media (max-width: 991px)
+            transform: translateY(100px)
+        @media (max-width: 491px)
+            height: auto
+        .service-bg
+            width: 100%
+            height: 700px
+            background: url('../../img/services-pic.jpg')
+                size: cover
+                repeat: no-repeat
+            @media (max-width: 1366px)
+                height: 400px
+            @media (max-width: 991px)
+                height: 600px
+            @media (max-width: 991px)
+                max-height: 400px
+        .service-desc
+            width: 100%
+            height: 200px
+            background: #252525
+            padding-top: 27px
+            padding-left: 30px
+            position: relative
+            @media (max-width: 1366px)
+                height: auto
+                padding-left: 0
+            .service-title
+                color: #1AC77D
+                font-size: 50px
+                font-weight: 700
+                padding-bottom: 10px
+                @media (max-width: 1366px)
+                    text-align: center
+            p
+                font-size: 14px
+                color: white
+                max-width: 486px
+                @media (max-width: 1366px)
+                    text-align: center
+                    font-size: 12px
+                    padding-bottom: 20px
+                    width: 90%
+                    margin: 0 auto
+            a
+                padding: 1.1em 1.5em
+                text-decoration: none
+                background: #1AC77D
+                font-size: 20px
+                color: #252525
+                font-weight: 700
+                text-transform: uppercase
+                position: absolute
+                right: 0
+                bottom: 0
+                @media (max-width: 1366px)
+                    font-size: 15px
+                    position: static
+                    margin: 0 auto
+                    display: block
+                    max-width: 200px
+                    text-align: center
+            a:hover
+                color: white

@@ -1,0 +1,123 @@
+/* Contact Styles */
+
+.Contact
+    width: 100%
+    height: 100vh
+    position: absolute
+    left: 0
+    right: 0
+    background: #252525
+    @media (max-height: 1015px)
+        height: auto
+    @media (max-width: 991px)
+        .container
+            width: 95%
+    @media (max-width: 767px)
+        height: auto
+        padding-bottom: 20px
+    h3
+        color: white
+        font-size: 50px
+        text-transform: uppercase
+        margin-top: 227px
+        max-width: 434px
+        strong
+            color: #1AC77D
+        @media (max-width: 767px)
+            text-align: center
+            width: 100%
+            margin: 127px auto 50px
+            max-width: 100%
+
+    .contact-wrapper
+        display: grid
+        grid-template-columns: 50% 50%
+        margin-top: 100px
+        @media (max-width: 767px)
+            display: block
+        .contact-desc
+            @media (max-width: 767px)
+                display: flex
+                text-align: center
+                flex-flow: column
+            .desc-title
+                display: flex
+                align-items: center
+                @media (max-width: 767px)
+                    justify-content: center
+                .icon-1
+                    width: 30px
+                    height: 30px
+                    background: url('../../img/gps.svg')
+                        size: contain
+                        repeat: no-repeat
+                        position: center
+                .icon-2
+                    width: 30px
+                    height: 30px
+                    background: url('../../img/phone.svg')
+                        size: contain
+                        repeat: no-repeat
+                        position: center
+                .icon-3
+                    width: 30px
+                    height: 30px
+                    background: url('../../img/email.svg')
+                        size: contain
+                        repeat: no-repeat
+                        position: center
+                h4
+                    margin-left: 30px
+                    font-size: 20px
+                    color: white
+                    text-transform: uppercase
+            p
+                font-size: 18px
+                color: white
+                max-width: 450px
+                margin-top: 50px
+                margin-bottom: 64px
+                font-weight: 700
+                @media (max-width: 1176px)
+                    font-size: 14px
+                @media (max-width: 767px)
+                    margin: 50px auto 60px
+
+        .contact-message
+            background: #1AC77D
+            display: inline-block
+            text-align: center
+            padding-top: 30px
+            @media (max-width: 991px)
+                width: 100%
+                padding-bottom: 20px
+            h4
+                font-size: 30px
+                text-transform: uppercase
+                font-weight: 700
+                color: white
+                margin-bottom: 20px
+                text-align: left
+                margin-left: 20px
+            input,
+            textarea
+                display: block
+                width: 95%
+                font-weight: 700
+                margin: 0 auto
+                padding-left: 17px
+                padding-top: 13px
+                padding-bottom: 13px
+                border: 0
+                margin-bottom: 20px
+            textarea
+                height: 200px
+            button
+                width: 95%
+                background: #252525
+                border-radius: 0px
+                transition: none
+            button:hover
+                transform: none
+                color: #1ac77d
+                

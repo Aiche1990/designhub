@@ -1,0 +1,127 @@
+/* Contact Styles */
+.Contact {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #252525; }
+  @media (max-height: 1015px) {
+    .Contact {
+      height: auto; } }
+  @media (max-width: 991px) {
+    .Contact .container {
+      width: 95%; } }
+  @media (max-width: 767px) {
+    .Contact {
+      height: auto;
+      padding-bottom: 20px; } }
+  .Contact h3 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 227px;
+    max-width: 434px; }
+    .Contact h3 strong {
+      color: #1AC77D; }
+    @media (max-width: 767px) {
+      .Contact h3 {
+        text-align: center;
+        width: 100%;
+        margin: 127px auto 50px;
+        max-width: 100%; } }
+  .Contact .contact-wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 100px; }
+    @media (max-width: 767px) {
+      .Contact .contact-wrapper {
+        display: block; } }
+    @media (max-width: 767px) {
+      .Contact .contact-wrapper .contact-desc {
+        display: flex;
+        text-align: center;
+        flex-flow: column; } }
+    .Contact .contact-wrapper .contact-desc .desc-title {
+      display: flex;
+      align-items: center; }
+      @media (max-width: 767px) {
+        .Contact .contact-wrapper .contact-desc .desc-title {
+          justify-content: center; } }
+      .Contact .contact-wrapper .contact-desc .desc-title .icon-1 {
+        width: 30px;
+        height: 30px;
+        background: url("../../img/gps.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center; }
+      .Contact .contact-wrapper .contact-desc .desc-title .icon-2 {
+        width: 30px;
+        height: 30px;
+        background: url("../../img/phone.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center; }
+      .Contact .contact-wrapper .contact-desc .desc-title .icon-3 {
+        width: 30px;
+        height: 30px;
+        background: url("../../img/email.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center; }
+      .Contact .contact-wrapper .contact-desc .desc-title h4 {
+        margin-left: 30px;
+        font-size: 20px;
+        color: white;
+        text-transform: uppercase; }
+    .Contact .contact-wrapper .contact-desc p {
+      font-size: 18px;
+      color: white;
+      max-width: 450px;
+      margin-top: 50px;
+      margin-bottom: 64px;
+      font-weight: 700; }
+      @media (max-width: 1176px) {
+        .Contact .contact-wrapper .contact-desc p {
+          font-size: 14px; } }
+      @media (max-width: 767px) {
+        .Contact .contact-wrapper .contact-desc p {
+          margin: 50px auto 60px; } }
+    .Contact .contact-wrapper .contact-message {
+      background: #1AC77D;
+      display: inline-block;
+      text-align: center;
+      padding-top: 30px; }
+      @media (max-width: 991px) {
+        .Contact .contact-wrapper .contact-message {
+          width: 100%;
+          padding-bottom: 20px; } }
+      .Contact .contact-wrapper .contact-message h4 {
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 20px;
+        text-align: left;
+        margin-left: 20px; }
+      .Contact .contact-wrapper .contact-message input,
+      .Contact .contact-wrapper .contact-message textarea {
+        display: block;
+        width: 95%;
+        font-weight: 700;
+        margin: 0 auto;
+        padding-left: 17px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        border: 0;
+        margin-bottom: 20px; }
+      .Contact .contact-wrapper .contact-message textarea {
+        height: 200px; }
+      .Contact .contact-wrapper .contact-message button {
+        width: 95%;
+        background: #252525;
+        border-radius: 0px;
+        transition: none; }
+      .Contact .contact-wrapper .contact-message button:hover {
+        transform: none;
+        color: #1ac77d; }
