@@ -1,14 +1,14 @@
 {
-  "main.css": "/designhub/static/css/main.098cf02a.chunk.css",
-  "main.js": "/designhub/static/js/main.e7c57388.chunk.js",
-  "main.js.map": "/designhub/static/js/main.e7c57388.chunk.js.map",
+  "main.css": "/designhub/static/css/main.9b253b74.chunk.css",
+  "main.js": "/designhub/static/js/main.02e2aa2f.chunk.js",
+  "main.js.map": "/designhub/static/js/main.02e2aa2f.chunk.js.map",
   "static/js/1.803cdb53.chunk.js": "/designhub/static/js/1.803cdb53.chunk.js",
   "static/js/1.803cdb53.chunk.js.map": "/designhub/static/js/1.803cdb53.chunk.js.map",
   "runtime~main.js": "/designhub/static/js/runtime~main.04e570f0.js",
   "runtime~main.js.map": "/designhub/static/js/runtime~main.04e570f0.js.map",
-  "static/media/0-layouts-dir.sass": "/designhub/static/media/email.c6697aa8.svg",
-  "static/css/main.098cf02a.chunk.css.map": "/designhub/static/css/main.098cf02a.chunk.css.map",
+  "static/media/0-layouts-dir.sass": "/designhub/static/media/services-pic.1d78384a.jpg",
+  "static/css/main.9b253b74.chunk.css.map": "/designhub/static/css/main.9b253b74.chunk.css.map",
   "index.html": "/designhub/index.html",
-  "precache-manifest.174d8821b9d08320c16e9c0f254dd848.js": "/designhub/precache-manifest.174d8821b9d08320c16e9c0f254dd848.js",
+  "precache-manifest.153d4a1912da04521fcf952bbd2272e1.js": "/designhub/precache-manifest.153d4a1912da04521fcf952bbd2272e1.js",
   "service-worker.js": "/designhub/service-worker.js"
 }
